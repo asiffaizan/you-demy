@@ -10,8 +10,8 @@ export default function Nav() {
         </a>
         <div className='flex flex-row justify-between items-center'>
             <a href='/' className={`active ${anchorStyle}`} checked>All Courses</a>
-            <a href='/' className={anchorStyle}>My Courses</a>
-            <a href='/' className={anchorStyle}>Overview</a>
+            <a href='/courses' className={anchorStyle}>My Courses</a>
+            <a href='/overview' className={anchorStyle}>Overview</a>
         </div>
     </nav>
   )
